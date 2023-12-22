@@ -33,3 +33,22 @@ done < etc/passwd
 # cette boucle va lire le fichier 
 # passwd et afficher chaque ligne avec un numéro
 
+# syntaxe until
+until <test>
+do 
+    <commande>
+done
+
+# itérér sur une liste finie de valeurs
+for var in 1 2 3 4 5
+do 
+    echo "$var"
+done
+
+# mieux
+echo {1..5} 
+
+for var in {1..50}
+do 
+    echo "$var"
+done
