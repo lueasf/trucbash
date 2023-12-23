@@ -21,3 +21,4 @@ echo ${SHLVL}
 echo ${BASHOPTS}
 # renvoie les options de bash
 
+ 
